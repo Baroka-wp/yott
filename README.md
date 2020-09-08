@@ -1,6 +1,6 @@
 # App schema
 ### Model : Task
-'Task.new(task_name:string task_details:text task_statut:string task_priority:string)'
+"Task.new(task_name:string task_details:text task_statut:string task_priority:string)"
 
 belongs_to:user
 has_many:labels
@@ -13,7 +13,7 @@ has_many:labels
 | task_priority | string |
 
 ### Model User
-'User.new(name:string email:string password_digest:string image:text)'
+"User.new(name:string email:string password_digest:string image:text)"
 has_many:tasks
 | Colums | Description |
 | --- | ----------- |
@@ -23,7 +23,7 @@ has_many:tasks
 | password_digest | string |
 
 ### Model label
-'Label.new(label_name:string)
+"Label.new(label_name:string)"
 has_many:tasks
 | Colums | Description |
 | --- | ----------- |
