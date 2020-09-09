@@ -1,0 +1,54 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//show.html.erb
+.show_content{
+  display: flex;
+  margin-left: 280px;
+}
+.list_task{
+  float: left;
+  background: #FF6347;
+  margin:75px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 5px;
+}
+.list_task a{
+  color:black;
+  display: block;
+  width:200px;
+  line-height: auto;
+  padding:10px;
+  border-top: 2px solid #DC143C;
+  border-bottom: 2px solid #DC143C;
+}
+.list_task a:hover{
+  background: #CD5C5C;
+  text-decoration: none;
+}
+//index.html.erb
+.task_list{
+float: left;
+background: #FF6347;
+width: 200px;
+height: auto;
+margin: 5px;
+}
+.task_list:hover{
+background: #CD5C5C;
+width: 200px;
+
+}
+.task_list a{
+  color:white;
+  padding: 10px;
+
+}
+.task_list a:hover{
+  text-decoration: none;
+    color:white;
+}
