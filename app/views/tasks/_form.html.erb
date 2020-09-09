@@ -1,4 +1,4 @@
-<div class="container">
+
   <% if @task.errors.any? %>
   <div id="error_explanation">
     <h2>
@@ -10,7 +10,6 @@
         <li><%= msg %></li>
       <% end %>
     </ul>
-  </div>
 <% end %>
   <div class="field">
     <%= form_with(model:@task,local: true) do |form| %>

@@ -2,17 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+.container{
+  align-items: center;
+  width: 50%;
+  margin-left: 250px;
+  border: 1px solid #DC143C;
+  padding: 10px;
+}
+h3{
+  border-bottom: 1px solid #DC143C;
+  text-align: center;
+  width: 100%;
+}
+
 //show.html.erb
-.show_content{
+/*.show_content{
   display: flex;
   margin-left: 280px;
 }
+*/
 .list_task{
-  float: left;
+  position: absolute;
   background: #FF6347;
-  margin:75px;
+  margin:auto;
   height: 250px;
-  border-radius: 20px;
+  //border-radius: 20px;
   text-align: center;
   padding-top: 20px;
   box-shadow: 5px;
@@ -23,8 +38,8 @@
   width:200px;
   line-height: auto;
   padding:10px;
-  border-top: 2px solid #DC143C;
-  border-bottom: 2px solid #DC143C;
+  border: 1px solid #DC143C;
+  //border-bottom: 2px solid #DC143C;
 }
 .list_task a:hover{
   background: #CD5C5C;
@@ -32,7 +47,9 @@
 }
 //index.html.erb
 .task_list{
-float: left;
+//float: left;
+align-items: center;
+text-align: center;
 background: #FF6347;
 width: 200px;
 height: auto;
